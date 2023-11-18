@@ -1,31 +1,198 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="light">
+
 <head>
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT Services Web</title>
+    <meta name="description"
+        content="Tecnología y desarrollo web,servicios para desarrollo web, agencia de desarrollo web,Servicios de Tecnología. creación de página web. servicios ofrecidos en IT">
+    <meta name="keywords"
+        content="web, diseño, desarrollo,empresa, agencia, programación, marcas, digital, marketing, tecnología, web services, profesionales, emprendedores.">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/nosotros2.css">
+    <link rel="stylesheet" href="css/queHacemos.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/clientes.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="styles.css"> <!-- link para animación -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Animación HTML</title>
+    <title>Animación de Rotación</title>
+    <title>It Services Web</title>
+    
 </head>
+
 <body>
-    <h1>Proyecto IT Services</h1>
-    <h3>Acerca del proyecto</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, asperiores praesentium rem magni autem error doloribus vero quam, deleniti distinctio sed sit, necessitatibus earum neque aliquid ex nihil? Consequuntur, quo?</p>
-    <h3>Secciones</h3>
-    <ul>
-        <li>Sección 1</li>
-        <li>Sección 2</li>
-        <li>Sección 3</li>
-        <li>Sección 4</li>
-        <li>Sección 5</li>
-        <li>Sección 6</li>
-        <li>Sección 7</li>
+    
 
-    </ul>
-    <h3>
-        <ol>
-            <li>Contacto</li>
-            <li>Formulario</li>
-        </ol>
-    </h3>
+    <!-- Aquí se puede agregar más contenido -->
+    <header>
+        
+        <div class="container-header">
+            <div class="container-logo">
+                <a class="logo" href="index.html">
+                    <img class="logo-movil" src="img/logonuevo.png" alt="itsw" />
+                                         </a>
+            </div>
+            <div class="container-menu"><nav class="nav">
 
+                <!--botón hamburguesa menú-->
+                <button class="nav-toggle" aria-label="Abrir Menú">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+    
+                <div class="nav-menu">
+                    <!--botón cerrar menú-->
+                    <div class="container-head-menu">
+                        <div class="container-btn-cierre">
+                            
+    
+                            <div>
+                                <button id="cerrar-menu" class="btn-cierre" aria-label="Cerrar Menú">
+                                    <i class="fa-solid fa-xmark" style="color: #37433A;"></i>
+                                </button>
+                            </div>
+                        </div>
+    
+                        
+                    </div>
+    
+                    <!--separador-->
+                    <ul>
+                        <li class="nav-menu-item"><a href="#quenosotros" class="nav-link">Nosotros</a></li>
+                        <li class="nav-menu-item"><a href="#que-hacemos" class="nav-link">QueHacemos</a></li>
+                        <li class="nav-menu-item"><a href="#servicios" class="nav-link">Servicios</a></li>
+                        <li class="nav-menu-item"><a href="#portafolio" class="nav-link">Portafolio</a></li>
+                        <li class="nav-menu-item"><a href="#clientes" class="nav-link">Clientes</a></li>
+                        <li class="nav-menu-item"><a href="#contacto" class="nav-link ">Contacto</a>
+                        </li>
+                    </ul>
+    
+                </div>
+            </nav></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contenedor-nosotros">
+            <div class="fondo-nosotros" id="quenosotros"> <!-- id recuadro de texto-->
+                <h1>Nosotros</h1>
+                <div class="contenido-parrafo">
+                    <p>Somos una agencia de desarrollo y diseño web, que trabaja con la misión de ayudar a marcas y
+                        empresas a extender su crecimiento digital diseñando y creando su página web. Nos destacamos
+                        por el compromiso con la calidad de servicio centrada en el cliente, teniendo en cuenta que
+                        cada
+                        proyecto es una oportunidad para seguir inspirando.
+                    </p>
+                </div>
+                <div class="contenido-parrafo">
+                    <p>
+                        "Tu visión, nuestra tecnologia"
+                    </p>
+                </div>
+                <div class="contenido-parrafo">
+                    <button id="boton">
+                        <a
+                        href="https://api.whatsapp.com/send?phone=+5491127867194&text=Hola, Nececito mas informacion!"
+                        target="_blank">Contáctanos</a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section class="contenedor-quehacemos" id="que-hacemos">
+            <div class="fondoquehacemos" id="quehacemos"> <!-- id recuadro de texto-->
+                <h1>Que Hacemos</h1>
+                <div class="contenido-parrafo">
+                    <p>Como agencia nos encanta apoyar a los emprendedores, por eso te ayudamos a potenciar tu marca con un
+                        sitio web que genere confianza y aporte valor al consumidor, una web con propósito de conquistar
+                        clientes - aliados, con un diseño que comunique los mensajes que necesita transmitir tu marca.
+                    </p>
+                </div>
+               
+                    <button id="boton">
+                        <a
+                        href="https://api.whatsapp.com/send?phone=+5491127867194&text=Hola, Nececito mas informacion!"
+                        target="_blank">Contáctanos</a>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="cards-contenedor">
+            <h2 class="titulo">Servicios</h2>
+            <p>Respaldados por nuestro equipo de profesionales, diseñamos tu página web haciendo que tu público se conecte con tu identidad corporativa. Prestamos servicios a diversos clientes en Latinoamérica. </p> 
+
+            <div class="content-cards">
+                <article class="card">
+                    <img src="img/DESARROLLADOR DE SOFTWARE.jpg" alt="">
+                     
+                    <p>Desarrollo Web</p>
+                    
+                </article>
+                
+                <article class="card">
+                    <img src="img/imac-793042_1280.jpg" alt="">
+                    
+                    <p> UX / UI Desing </p>
+                    
+                </article>
+                <article class="card">
+                    <img src="img/3.jpg" alt="">
+        
+                    <p>Marketing Digital</p>
+                    
+                </article>
+                    
+                </article>
+                <article class="card">
+                    <img src="img/3.jpg" alt="">
+        
+                    <p>UX Whiting</p>
+                    
+                </article>
+            </div>
+        </section>
+
+         <!--separador-->
+        <section class="galeria">
+            <div class="contenedor">
+                <h2 class="titulo">Clientes que confían en nosotros</h2>
+                <article class="galeria-cont">
+                    <img src="img/logoeidos.jpg" alt="">
+                    <img src="img/accenture-logo-2.png" alt="">
+                    <img src="img/logocodigopalante.jpg" alt="">
+                    <img src="img/It Services Web, Logo..PNG" alt="">
+                    <img src="img/pixaba-1987080_1280.png" alt="">
+                    <img src="img/logo-751132_1280.png" alt="">
+                    
+                </article>
+            </div>
+        </section>
+    
+        
+    </main>
+
+    <footer>
+        It Services Web
+    </footer>
+
+    <script src="js/main.js"></script>
+    <!-- PAQUETE DE ICONOS -->
+    <script src="https://kit.fontawesome.com/943301684c.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
