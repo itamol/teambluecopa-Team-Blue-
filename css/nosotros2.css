@@ -5,24 +5,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../img/banner1.jpg") center/cover no-repeat;  
+    background: url("../img/banner1.jpg") center/cover no-repeat;
     /* Ajusta esto según el tamaño de tu barra de navegación o el espacio superior deseado */
-  padding-top: 40px;
-  margin-top: -40px;
+    padding-top: 40px;
+    margin-top: -40px;
 
 }
 
 .fondo-nosotros {
     text-align: none;
     transition: background-color 0.5s ease-in-out;
-    background-color: #3498db; /* Puedes cambiar esto a tu color de fondo deseado */
+    background-color: #3498db;
+    /* Puedes cambiar esto a tu color de fondo deseado */
     padding: 20px;
-    color: #fff; /* Puedes cambiar esto al color de texto deseado */
+    color: #fff;
+    /* Puedes cambiar esto al color de texto deseado */
 }
 
 /*ojo tener en cuenta*/
 .fondo-nosotros:hover {
-    background-color: #ffcccb; /* se puede cambiar este color */
+    background-color: #ffcccb;
+    /* se puede cambiar este color */
 }
 
 .contenido-parrafo {
@@ -37,6 +40,7 @@
     border-radius: 30px;
     justify-content: center;
     max-width: 600px;
+    /* tamaño cuadro centro de la imagen */
 }
 
 .elemento {
@@ -76,6 +80,7 @@
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -88,15 +93,18 @@
 
 @keyframes miAnimacion {
     from {
-        opacity: 0; /* Inicio invisible */
+        opacity: 0;
+        /* Inicio invisible */
     }
+
     to {
-        opacity: 1; /* Fin completamente visible */
+        opacity: 1;
+        /* Fin completamente visible */
     }
 }
 
 /* Animación al elemento con el ID quenosotros */
 #quenosotros {
-    animation: miAnimacion 2s ease-in-out; /* Puedes ajustar la duración y la función de temporización según tus preferencias */
+    animation: miAnimacion 2s ease-in-out;
+    /* Puedes ajustar la duración y la función de temporización según tus preferencias */
 }
-
